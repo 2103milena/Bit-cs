@@ -1,0 +1,1 @@
+var actualites = getElementById("act");
