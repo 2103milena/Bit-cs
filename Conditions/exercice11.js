@@ -39,50 +39,78 @@
 
 //     }
 
-    var x = 5
-    var y = 3
-    var z = 2
+//     var x = 5
+//     var y = 3
+//     var z = 2
 
 
-if(x>y && x>z) 
+// if(x>y && x>z) 
 
-{
+// {
     
-        console.log(x y z)
-    }
+//         console.log(x y z)
+//     }
 
-else if(x>y && z>y) {
+// else if(x>y && z>y) {
 
-    console.log(x z y)
+//     console.log(x z y)
+// }
+
+// else if(y>x && x>z)
+
+// {
+    
+//         console.log(y x z )
+//     }
+
+// else if (y>x && z>x)
+
+// {
+    
+//         console.log(y z x)
+//     }
+
+// else if (z>x && x>y)
+
+// {
+    
+//         console.log(z x y)
+//     }
+
+// else (z>y && y>x)
+
+// {
+    
+//         console.log(z y x)
+//     }
+
+
+var day = 4;
+
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Nothing");
+        break;
 }
-
-else if(y>x && x>z)
-
-{
-    
-        console.log(y x z )
-    }
-
-else if (y>x && z>x)
-
-{
-    
-        console.log(y z x)
-    }
-
-else if (z>x && x>y)
-
-{
-    
-        console.log(z x y)
-    }
-
-else (z>y && y>x)
-
-{
-    
-        console.log(z y x)
-    }
-
-
 
